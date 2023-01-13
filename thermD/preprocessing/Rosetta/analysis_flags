@@ -1,0 +1,10 @@
+-in:file:s complex.pdb 
+-in:file:native native.pdb 
+-parser:protocol mutate_relax_analyze.xml 
+-parser:script_vars position=22H   # Change to the required residue
+-parser:script_vars res_aa=E       # Change to the required amino acid
+-out:file:scorefile rx_score.sc 
+-out:path:pdb out_pdbs 
+-out:pdb_gz 
+-out:suffix _22H_E
+-nstruct 1 
