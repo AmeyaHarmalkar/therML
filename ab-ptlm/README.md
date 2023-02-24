@@ -14,7 +14,7 @@ Before running, several dependencies need to be installed:
 - `torchmetrics`
 - `antiberty`
 - `igfold`
-- `evo`
+- `evo` (You can copy the `../ptlm/evo` directory here for easier use)
 
 Most of these are common requirements, however for antibody-specific embeddings we will require antiberty and igfold. Antiberty is the BERT model trained on antibody sequences from Observed Antibody Space. Alternative antibody-specific models are AbLang, AntiBERTa, Progen-OAS. AntiBERTy has been trained on both heavy and light chain sequences. Please refer to [https://github.com/Graylab/IgFold](github.com/Graylab/IgFold) for installation instructions and license information. The models presented in this section were trained on AntiBERTy [https://pypi.org/project/antiberty/](pypi.org/project/antiberty/) for non-commercial use. 
 
