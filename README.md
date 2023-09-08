@@ -38,6 +38,11 @@ Each of the directories has further information about respective models.
 If you run into any problems while using therML, please create a Github issue with a description of the problem and the steps to reproduce it. You can also reach out to us at `ameya@jhu.edu` and let us know if we can improve our code/help you troubleshoot the bug/s.
 
 
+### License
+
+Please read the terms and conditions as listed in the licensing document provided by Amgen.
+
+
 ### Citing this work
 
 ```@article{Harmalkar2023,
